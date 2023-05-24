@@ -1,0 +1,169 @@
+/* Global */
+body {
+  margin: 0;
+  padding: 0;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-family: 'Poppins', sans-serif;
+  color: #424242;
+}
+
+ul, li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.text-blue{
+  color: #336699;
+  font-size: 3rem;
+}
+
+.container-title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.subtitle{
+  margin: 0;
+}
+
+.title{
+  font-size: 3rem;
+  margin-top: 5vh;
+  letter-spacing: 2px;
+  font-weight: 800;
+}
+
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Navbar */
+.navbar{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: none;
+  justify-content: space-between;
+  height: 8vh;
+}
+
+#navbar-span{
+  margin-top: auto;
+  margin-bottom: auto;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+#navbar-list{
+  display: flex;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.navbar-li{
+  padding-left: 1.5rem;
+  margin: auto;
+}
+
+#burger-menu{
+  display: none;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+
+
+                              /* First-bloc */
+.first-bloc{
+  display: flex;
+  width: 100%;
+}
+
+#main-job{
+  font-weight: 400;
+  font-size: 2rem;
+}
+
+.main-view{
+  height: 85vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-content {
+  flex: 70%;
+  text-align: center;
+}
+
+.main-text{
+  text-align:start;
+  font-weight: 600;
+  margin: 0;
+}
+
+#main-description{
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+#main-title{
+ font-size: 3rem;
+}
+
+#main-subtitle{
+  display: flex;
+  text-align: start;
+  flex-direction: column;
+}
+/* Image de profil */
+.main-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 30%;
+}
+
+.main-image img {
+  border-radius: 60%;
+  width: 15rem;
+  height: auto;
+}
+
+#drop-arrow{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 7vh;
+}
+
+#drop-arrow i{
+  font-size: 2.5rem  
+}
+
+/* Expérence */
+
+
+/* Fomat mobile */
+
+@media screen and (max-width: 850px) {
+  #burger-menu{
+    display: block;
+  }
+
+  #navbar-list{
+    display: none;
+  }
+  body {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .main-image {
+    display: none;
+  }
+}

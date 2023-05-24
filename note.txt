@@ -1,0 +1,9 @@
+npx tailwindcss -i ./css/import.css -o style.css --watch
+
+input puis output 
+https://tailwindcss.com/docs/installation
+
+
+essayer d'import flowbite en local
+
+prettier shift alt f
